@@ -31,3 +31,24 @@ button{
     padding: 0 10px;
     margin: 0 auto;
 }
+
+.section-title {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 127%;
+    text-align: center;
+    color: var(--title-color);
+}
+
+.section-tag {
+    background-color: var(--beige-color);
+    width: auto;
+    border-radius: 1000px;
+    padding: 10px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--title-color);
+    margin-bottom: 24px;
+}
