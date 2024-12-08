@@ -1,0 +1,136 @@
+.header {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    min-height: 100vh;
+    .header-top {
+        .header-top__inner {
+            padding: 28px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu {
+            .menu-list {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+                &__item {
+                    font-family: var(--second-family);
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: #bab9b9;
+                    transition: all 0.3s;
+                    &:hover {
+                        color: #fff;
+                    }
+                    &.active {
+                        color: #fff;
+                    }
+                }
+            }
+            
+        }
+        
+        .header__buttons {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+        .header__btn {
+        }
+    }
+    
+    .promo {
+        .promo__inner {
+            display: flex;
+            margin-bottom: 94px;
+            .promo-info {
+                padding-top: 101px;
+                max-width: 534px;
+                &__title {
+                    font-family: var(--second-family);
+                    font-weight: 700;
+                    font-size: 60px;
+                    line-height: 110%;
+                    letter-spacing: 0.01em;
+                    margin-bottom: 24px;
+                }
+                &__text {
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 160%;
+                    letter-spacing: -0.01em;
+                    margin-bottom: 40px;
+                }
+                &__buttons {
+                    display: flex;
+                    align-items: center;
+                    gap: 23px;
+                    margin-bottom: 75px;
+                    .promo-info__btn {
+                        display: flex;
+                        align-items: center;
+                        padding: 18px 36px;
+                        font-family: var(--second-family);
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #fff;
+                        &.main {
+                            color: #24272e;
+                            background-color: var(--yellow-color);
+                            border-radius: 100px;
+                            width: 197px;
+                            gap: 10px;
+                        }
+                    }
+                }
+                
+                .promo-info__numbers {
+                    display: flex;
+                    align-items: center;
+                    gap: 32px;
+                    &-item {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        font-family: var(--second-family);
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 175%;
+                        color: #fff;
+                        span {
+                            color: var(--yellow-color);
+                            display: block;
+                            margin-bottom: 20px;
+                            font-family: var(--second-family);
+                            font-weight: 600;
+                            font-size: 44px;
+                            line-height: 127%;
+                        }
+                    }
+                }
+                
+            }
+            
+            .promo-media {
+                .promo-media__img {
+                }
+            }
+        }
+    
+        &__brands {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .promo__brands-item {
+            }
+            .promo__brands-img {
+            }
+        }
+        
+    }   
+    
+}
+

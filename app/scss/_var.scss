@@ -1,26 +1,12 @@
-$title-color: #222222;
-$text-color: #404756;
-$pink-color: #F7859C;
-
-@mixin bold-text {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
-    color: $title-color;
-}
-
-@mixin item__title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 32px;
-    color: $title-color;
-}
-
-@mixin item__subtitle {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 16px;
-    color: $title-color;
+:root {
+    --font-family: "Inter", sans-serif;
+    --second-family: "ITC Avant Garde Gothic Std", sans-serif;
+    --third-family: "Manrope", sans-serif;
+    --main-color: #101C26;
+    --text-color: #555c68;
+    --title-color: #24272e;
+    --beige-color: rgba(240, 231, 20, 0.2);
+    --dark-color: #2B303B;
+    --white-color: #f3f4f6;
+    --yellow-color: #f0e714;
 }
