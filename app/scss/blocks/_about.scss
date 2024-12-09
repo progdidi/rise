@@ -32,3 +32,12 @@
     }
 }
 
+@media(max-width: 750px) {
+    .about {
+        &__inner {
+            flex-direction: column;
+            gap: 70px;
+        }
+    }
+}
+
