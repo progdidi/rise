@@ -13,6 +13,7 @@ body {
     font-size: 20px;
     line-height: 150%;
     color: var(--text-color);
+    background-color: #F5F5F5;
 }
 
 a{
@@ -32,18 +33,22 @@ button{
     margin: 0 auto;
 }
 
+section {
+    margin-bottom: 140px;
+}
+
 .section-title {
     font-family: var(--second-family);
     font-weight: 600;
     font-size: 44px;
     line-height: 127%;
-    text-align: center;
     color: var(--title-color);
 }
 
+
 .section-tag {
     background-color: var(--beige-color);
-    width: auto;
+    width: fit-content;
     border-radius: 1000px;
     padding: 10px 16px;
     font-weight: 400;
