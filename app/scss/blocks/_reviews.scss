@@ -1,0 +1,37 @@
+.reviews {
+    .section-tag {
+        text-align: center;
+    }
+    .reviews__title {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .reviews__text {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .reviews__items {
+        display: flex;
+        overflow: hidden;
+        .reviews-item {
+            background-color: #fff;
+            &__img {
+            }
+            &__name {
+            }
+            &__job {
+            }
+            &__rating {
+                display: flex;
+            }
+            &__text {
+            }
+
+            &.active {
+
+            }
+        }
+        
+    }
+}
+
